@@ -1,0 +1,28 @@
+[
+    {
+        "id":1,
+        "name":"prod 1",
+        "review":[],
+        "price":20,
+        "discounted_price":10,
+        "description":"loremsdkfsdk dkfsdk fsd fsd fsd fsdkfsd f sa fsd f",
+        "quantity":[
+            { "size":"xl","color":"red","quant":10},
+            { "size":"l","color":"white","quant":20}
+        ]
+
+    },
+    {
+        "id":2,
+        "name":"prod 2",
+        "review":[],
+        "price":20,
+        "discounted_price":10,
+        "description":"loremsdkfsdk dkfsdk fsd fsd fsd fsdkfsd f sa fsd f",
+        "quantity":[
+            { "size":"xl","color":"red","quantity":10},
+            { "size":"l","color":"white","quantity":20}
+        ]
+
+    }
+]

@@ -1,0 +1,224 @@
+.menuBtn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  box-shadow: none;
+}
+.uploadDiv {
+  width: 600px;
+}
+.uploadDiv div,
+.uploadForm div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.uploadDiv div label,
+.uploadForm div label {
+  width: 30%;
+}
+.uploadDiv div input,
+.uploadDiv div textarea,
+.uploadDiv div select,
+.uploadForm div input,
+.uploadForm div textarea,
+.uploadForm div select {
+  width: 70%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/* home page product  */
+
+.productRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.categorybandDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10vw;
+}
+.catFlex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.catFlex input {
+  padding: 4px;
+}
+
+.signInDiv {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signInSub {
+  width: 400px;
+  background-color: #e8f0fe;
+  border-radius: 12px;
+  padding: 16px;
+}
+.inputDiv {
+  width: 100%;
+  margin-bottom: 12px;
+}
+.inputDiv input, .inputDiv select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+}
+.inputDiv select{
+  padding: 7px ;
+}
+.signForm h4 {
+  margin: 20px auto;
+  margin-top: 10px;
+  text-align: center;
+}
+.logoutBtn:hover{
+  color: #D10024 !important;
+}
+
+.userAvatar{
+  display: flex;
+  align-items: center ;
+  gap: 4px ;
+}
+.userAvatar p{
+  margin-bottom: 0;
+  color: white;
+}
+
+.manageBtns{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+}
+.manageBtns button{
+  background-color: transparent;
+  border: none
+  ;
+}
+.loginBtn {
+  width: 100%;
+  background-color: #d10024;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 0;
+  font-size: 1em;
+}
+.simpleLogin {
+  border: none;
+  background-color: transparent;
+  color: blue;
+}
+.optionLogin {
+  margin-top: 10px;
+}
+
+.cartsSection{
+    width: 70vw;
+    margin: 80px auto ;
+}
+.singleCart {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.23);
+  box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.23);
+}
+.nameImage {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px ;
+  gap: 16px;
+}
+.nameImage img {
+  height: 80px;
+  width: auto;
+  border-radius: 8px;
+}
+
+.btnsCart {
+  display: flex;
+  align-items: center;
+  gap: 20px ;
+  margin-right: 10px ;
+}
+
+.btnsCart button {
+    border: 1px solid gray;
+    padding: 5px 10px ;
+    color: #d10024;
+    font-size: 1.2em;
+    font-weight: 800;
+
+}
+.checkoutBtnCart{
+    background-color: #D10024;
+    color:white;
+    font-weight: 700;
+    padding: 10px 35px;
+    border-radius: 8px ;
+    border-color: #D10024;
+    /* margin-top: 30px ;  */
+}
+.othersCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.homebtn{
+    background-color: transparent;
+    border: none;
+    color: blue;
+    font-weight: 700;
+    font-size: 0.95em ;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .cartsSection{
+        width: 95vw;
+        margin: 80px auto ;
+    }
+  .singleCart {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .categorybandDiv {
+    flex-direction: column;
+  }
+  .cartsSection{
+    width: 95vw;
+    margin: 80px auto ;
+}
+  .singleCart {
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
